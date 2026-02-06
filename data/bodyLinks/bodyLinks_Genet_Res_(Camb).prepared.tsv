@@ -1,0 +1,186 @@
+Genet_Res_(Camb)	35356748	2022	null https://www.ncbi.nlm.nih.gov/gds/ 301 null https://cancergenome.nih.gov 301 tool https://www.ncbi.nlm.nih.gov/geo/geo2r/ 301 tool https://bioinfogp.cnb.csic.es/tools/venny/index.html 301 null https://www.oncomine.org/ -1 null https://portal.gdc.cancer.gov/ -1 
+Genet_Res_(Camb)	35356748	2022	null https://www.ncbi.nlm.nih.gov/gds/ 301 null https://cancergenome.nih.gov 301 tool https://www.ncbi.nlm.nih.gov/geo/geo2r/ 301 tool https://bioinfogp.cnb.csic.es/tools/venny/index.html 301 null https://www.oncomine.org/ 301 null https://portal.gdc.cancer.gov/ 301 
+Genet_Res_(Camb)	35919037	2022	NoLink
+Genet_Res_(Camb)	37829154	2023	null https://broadinstitute.github.io/picard/ 200 null http://biobwa.sourceforge.net/ 301 software https://software.broadinstitute.org/gatk/ 301 null http://exac.broadinstitute.org/ 301 null http://www.internationalgenome.org/ 301 null https://www.ncbi.nlm.nih.gov/snp/ 301 null https://genetics.bwh.harvard.edu/pph2/ 200 null https://fathmm.biocompute.org.uk/ 200 null https://www.mutationtaster.org/ 302 null https://sift-dna.org/sift4g 302 null https://cadd.gs.washington.edu/score 302 null https://www.ncbi.nlm.nih.gov/ 301 null https://www.pymol.org/ 301 null https://stringdb.org/ 523 null https://www.ncbi.nlm.nih.gov/Homologene/ 301 
+Genet_Res_(Camb)	36299684	2022	tool https://snpinfo.niehs.nih.gov/ 302 null https://asia.ensembl.org/Homo_sapiens/Tools/LD?db=core -1 
+Genet_Res_(Camb)	39185021	2024	NoLink
+Genet_Res_(Camb)	35528221	2022	null http://www.maizesequence.org/index.html 302 download http://www.arabidopsis.org 403 software https://clustalx.software.informer.com/2.1/ 301 tool http://pfam.xfam.org/ 200 null https://www.ncbi.nlm.nih.gov/cdd/ 301 null http://smart.embl-heidelberg.de/ 301 null http://www.ebi.ac.uk/interpro/scan.html 200 null http://web.expasy.org/protparam/ 301 null http://linux1.softberry.com/ -1 null http://gsds.cbi.pku.edu.cn/ 200 tool http://pfam.xfam.org/ 200 software http://meme-suite.org/tools/meme 302 null http://www.sbg.bio.ic.ac.uk/phyre2 307 tool http://www.sacs.ucsf.edu/cgi-bin/hmmtop.py -1 null http://maizemine -1 
+Genet_Res_(Camb)	38586596	2024	NoLink
+Genet_Res_(Camb)	33762893	2021	NoLink
+Genet_Res_(Camb)	36072012	2022	null http://genome.ucsc.edu/ 200 package http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html 301 
+Genet_Res_(Camb)	38026448	2023	NoLink
+Genet_Res_(Camb)	38444770	2024	null https://faosta.fao.org -1 null https://phytozome-next.jgi.doe.gov/ 301 available https://www.arabidopsis.org/ 403 null https://pfam.janelia.org/ 200 null https://pfam.xfam.org/family 200 null https://www.ncbi.nlm.nih.gov/cdd/ 301 null https://smart.embl-heidelberg.de/ 301 tool https://web.expasy.org/protparam/ 301 null https://phytozome.jgi.doe.gov/pz/portal.html/ 301 null https://itol.embl.de/ 301 tool https://meme-suite.org/meme/tools/meme 302 tool https://meme.nbcr.net/meme/ 403 tool https://meme-suite.org/meme/ 302 null https://gsds.cbi.pku.edu.cn/ 200 null https://chibba.agtec.uga.edu/duplication/index/locus -1 tool https://mg2c.iask.in/mg2c_v2.0/ 200 tool https://planttfdb.cbi.pku.edu.cn// 200 null https://bis.zju.edu.cn/psi/ 302 tool https://planttfdb.cbi.pku.edu.cn// 200 tool https://bioinformatics.psb.ugent.be/webtools/plantcare/html/ 200 null https://plantgrn.noble.org/psRNATarget/analysis?function=3 -1 null https://string-db.org/cgi/ 301 
+Genet_Res_(Camb)	37006463	2023	null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://www.ncbi.nlm.nih.gov/geo/geo2r/ 301 tool https://sdstate.edu 301 null https://metascape.org/COVID 308 null https://metascape.org 200 tool https://bioinformatics.sdstate.edu/go/ 200 null https://metascape.org/COVID 308 null https://www.disgenet.org 301 null https://metascape.org/COVID 308 
+Genet_Res_(Camb)	36619897	2022	NoLink
+Genet_Res_(Camb)	34899056	2021	NoLink
+Genet_Res_(Camb)	34867085	2021	NoLink
+Genet_Res_(Camb)	26996452	2016	NoLink
+Genet_Res_(Camb)	36793937	2023	null https://gdc-portal.nci.nih.gov/ -1 download https://www.ncbi.nlm.nih.gov/ 301 software https://bioconductor.org/packages/release/bioc/html/limma.html 301 package https://cran.r-project.org/web/packages/pheatmap/index.html 200 package https://david.ncifcrf.gov/ -1 package https://cran.r-project.org/web/packages/WGCNA/ 200 package https://bioconductor.org/packages/survivalr/ 301 package https://cran.r-project.org/web/packages/lars/index.html 200 download https://www.proteinatlas.org/ 301 null https://mexpress.be/ 301 
+Genet_Res_(Camb)	35919033	2022	null https://ualcan.path.uab.edu/ 302 null https://kmplot.com/analysis/ 301 null https://david.nicifcrf.gov/ -1 
+Genet_Res_(Camb)	36160034	2022	tool https://cn.string-db.org/ 301 null https://tcga-data.nci.nih.gov/tcga 301 null https://kmplot.com/analysis/ 301 
+Genet_Res_(Camb)	36262249	2022	null https://gepia.cancer-pku.cn/ 200 null https://kmplot.com/analysis/ 301 tool https://david.ncifcrf.gov/tools.jsp -1 
+Genet_Res_(Camb)	36741921	2023	NoLink
+Genet_Res_(Camb)	35919032	2022	NoLink
+Genet_Res_(Camb)	36245555	2022	null https://browser.1000.genomes.org/index.html 302 
+Genet_Res_(Camb)	31668155	2019	NoLink
+Genet_Res_(Camb)	38074420	2023	null https://www.hgmd.cf.ac.uk/ac/index.php 302 null https://www.ncbi.nlm.nih.gov/clinvar/ 301 null https://exac.broadinstitute.org 301 tool https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/ 301 null https://evs.gs.washington.edu/EVS/ -1 null https://gnomad.broadinstitute.org/ 301 null https://www.iranome.ir/ -1 null https://igm.ucsd.edu/gme/ 404 null https://cadd.gs.washington.edu/home 302 null https://sift.bii.a-star.edu.sg/ 302 null https://genetics.bwh.harvard.edu/pph2/ 200 null https://provean.jcvi.org/index.php 200 null https://www.mutationtaster.org/ 302 null https://varnomen.hgvs.org/ 200 
+Genet_Res_(Camb)	35711689	2022	null https://www.ncbi.nlm.nih.gov/geo/ 301 tool https://www.ncbi.nlm.nih.gov/geo/geo2r/ 301 tool http://bioinfogp.cnb.csic.es/tools/venny/index.html 301 null https://biit.cs.ut.ee/gprofiler/ 200 null https://www.grnpedia.org/trrust/ 301 null https://www.string-db.org/ 301 null http://www.cytoscape.org/ 301 
+Genet_Res_(Camb)	36619896	2022	null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://asia.ensembl.org/index.html -1 software https://bioconductor.org/packages/release/bioc/html/limma.html 301 package https://cran.r-project.org/web/packages/pheatmap/index.html 200 null https://ctdbase.org/ 301 null https://david.ncifcrf.gov/ -1 null https://string-db.org/ 301 software https://apps.cytoscape.org/apps/centiscape 301 code https://apps.cytoscape.org/apps/mcode 301 null https://apps.cytoscape.org/apps/bingo 301 library https://stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.test.html 302 null https://cibersort.stanford.edu/index.php 301 
+Genet_Res_(Camb)	35645616	2022	null https://david.ncifcrf.gov/ -1 
+Genet_Res_(Camb)	35387180	2022	null https://www.ncbi.nlm.nih.gov/geo 301 null https://www.ncbi.nlm.nih.gov/geo/geo2r/ 301 
+Genet_Res_(Camb)	37168526	2023	NoLink
+Genet_Res_(Camb)	32354376	2020	NoLink
+Genet_Res_(Camb)	36407083	2022	download https://www.ncbi.nlm.nih.gov/ 301 null https://ctdbase.org/ 301 download https://portal.gdc.cancer.gov/ 301 null https://cistrome.shinyapps.io/timer/ 301 null https://biocc.hrbmu.edu.cn/CellMarker/ 200 download https://portal.gdc.com -1 
+Genet_Res_(Camb)	28132660	2017	NoLink
+Genet_Res_(Camb)	36908850	2023	null https://www.targetscan.org/vert_71/ 301 
+Genet_Res_(Camb)	37033161	2023	NoLink
+Genet_Res_(Camb)	37538139	2023	null https://www.ensembl.org/ 301 null https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71014 301 
+Genet_Res_(Camb)	38389521	2024	null https://diana.e-ce.uth.gr/lncbasev3 301 null https://www.targetscan.org/vert_80/ 301 null https://mirtarbase.cuhk.edu.cn/~miRTarBase/miRTarBase_2022/php/index.php 301 null https://string-db.org 301 
+Genet_Res_(Camb)	37942082	2023	NoLink
+Genet_Res_(Camb)	30912487	2019	NoLink
+Genet_Res_(Camb)	37829155	2023	NoLink
+Genet_Res_(Camb)	37234568	2023	null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://david.ncifcrf.gov/ -1 null https://string-db.org/ 301 
+Genet_Res_(Camb)	36017327	2021	null https://Climate-Data.org 403 null https://www.ncbi.nlm.nih.gov/assembly/GCF_002742125.1 301 null https://www.geneontology.org/ 301 null https://www.kegg.jp/kegg/pathway.html/ 301 
+Genet_Res_(Camb)	36474621	2022	NoLink
+Genet_Res_(Camb)	36238801	2022	NoLink
+Genet_Res_(Camb)	38283987	2024	NoLink
+Genet_Res_(Camb)	36824501	2023	null https://www.ncbi.nlm.nih.gov/snp/ 301 
+Genet_Res_(Camb)	35356749	2022	NoLink
+Genet_Res_(Camb)	35440892	2022	null https://www.ncbi.nlm.nih.gov/projects/SNP/ 301 null https://gnomad.broadinstitute.org/ 301 null https://1000genomes.org 301 null https://www.ncbi.nlm.nih.gov/projects/SNP/ 301 null https://1000genomes.org 301 null https://dgv.tcag.ca/dgv/app/home 200 
+Genet_Res_(Camb)	31134877	2019	NoLink
+Genet_Res_(Camb)	36118275	2022	NoLink
+Genet_Res_(Camb)	22950902	2012	NoLink
+Genet_Res_(Camb)	36474620	2022	NoLink
+Genet_Res_(Camb)	36072013	2022	software https://www.ncss.com/ 301 null https://www.meta-analysis.com/ 403 
+Genet_Res_(Camb)	36619898	2022	null https://www.ncbi.nlm.nih.gov/geo/ 301 null http://www.ncbi.nlm.nih.gov/geo/geo2r 301 null https://david.abcc.ncifcrf.gov/ -1 null https://string-db.org/ 301 null http://www.cuilab.cn/hmdd 200 null http://mirwalk.umm.uni-heidelberg.de/ 200 null http://www.sysu.edu.cn/ 302 null http://mirdb.org/ 301 null http://diana.imis.athena-innovation.gr/DianaTools 301 null https://mpd.bioinf.uni-sb.de/ 301 null http://www.targetscan.org/ 301 null http://kobas.cbi.pku.edu.cn/ -1 null http://gepia.cancer-pku.cn/ 200 
+Genet_Res_(Camb)	39247556	2024	null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://cancergenome.nih.gov/ 301 software https://software.broadinstitute.org/gsea/index.jsp 301 null https://tide.dfci.harvard.edu/ 200 null https://www.cancerrxgene.org/ 301 null https://sangerbox.com/home.html 200 
+Genet_Res_(Camb)	36941947	2023	code https://www.genecards.org/cgi-bin/carddisp.pl?gene=GOLGA2P5 301 null https://reactome.org 301 null https://www.pantherdb.org/ 302 null https://www.uniprot.org/uniprot/ 301 null https://www.uniprot.org 301 null https://www.ncbi.nlm.nih.gov/gene 301 null https://www.genecards.org/ 301 null https://www.omim.org/ 301 null https://www.unicarbkb.org/ 301 null https://www.uniprot.org/uniprot/ 301 null https://www.ncbi.nlm.nih.gov/pubmed 301 
+Genet_Res_(Camb)	35919036	2022	null http://www.ncbi.nlm.nih.gov/geo 301 
+Genet_Res_(Camb)	31190668	2019	NoLink
+Genet_Res_(Camb)	26030725	2015	NoLink
+Genet_Res_(Camb)	36160032	2022	null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://mirwalk.umm.uni-heidelberg.de/ 200 tool https://rtools.cbrc.jp/LncRRIsearch/n.d 404 null https://diana.imis.athena-innovation.gr/DianaTools/n.d 404 null https://string-db.org/ 301 null https://gepia.cancer-pku.cn/ 200 
+Genet_Res_(Camb)	36407084	2022	null https://www.usadellab.org/cms/index.php?page=trimmomatic 200 software https://blast.ncbi.nlm.nih.gov/Blast.cgi 301 null https://genome.umd.edu/jellyfish.html 302 null https://qb.cshl.edu/genomescope/ 503 null https://github.com/aquaskyline/SOAPdenovo2 301 
+Genet_Res_(Camb)	39297018	2024	NoLink
+Genet_Res_(Camb)	36407082	2022	NoLink
+Genet_Res_(Camb)	27834155	2016	NoLink
+Genet_Res_(Camb)	36479381	2022	NoLink
+Genet_Res_(Camb)	35387179	2022	NoLink
+Genet_Res_(Camb)	36320932	2022	NoLink
+Genet_Res_(Camb)	36923953	2023	NoLink
+Genet_Res_(Camb)	39377096	2024	NoLink
+Genet_Res_(Camb)	28502252	2017	NoLink
+Genet_Res_(Camb)	34456634	2021	null https://www.ncbi.nlm.nih.gov/geo/ 301 tool https://www.ncbi.nlm.nih.gov/geo/geo2r/ 301 null https://string-db.org/ 301 method http://www.paccanarolab.org/cluster-one/ 301 tool https://cytoscape.org/ 301 
+Genet_Res_(Camb)	36299685	2022	null https://www.ncbi.nlm.nih.gov/geo 301 null https://www.ncbi.nlm.nih.gov/geo/geo2r 301 tool https://www.string-db.org 301 null https://www.david.ncifcrf.gov -1 null https://www.ctdbase.org/ 200 
+Genet_Res_(Camb)	35356752	2022	code https://www.ncbi.nlm.nih.gov/protein/XP019841056.1 301 null http://frodo.wi.mit.edu/cgi-bin/primer3/primer3 -1 null http://www.slow.cgi -1 software https://nucleobytes.com/ 301 
+Genet_Res_(Camb)	37020895	2023	NoLink
+Genet_Res_(Camb)	37113556	2023	NoLink
+Genet_Res_(Camb)	36908851	2023	NoLink
+Genet_Res_(Camb)	36034412	2022	NoLink
+Genet_Res_(Camb)	35185392	2022	null http://provean.jcvi.org/index.php 200 null http://agvgd.hci.utah.edu/ 302 null https://sift.bii.astar.edu.sg/ -1 
+Genet_Res_(Camb)	36160033	2022	null https://www.ncbi.nlm.nih.gov/GEO/ 301 package https://www.bioconductor.org/packages/release/bioc/html/sva.html 301 package https://www.bioconductor.org/packages/release/bioc/html/edgeR.html 301 package https://cran.r-project.org/package=pheatmap 303 algorithm https://www.bioconductor.org/packages/release/bioc/html/GSVA.html 301 null https://77.66.12.57/R-help/cor.test.html -1 package https://cran.r-project.org/web/packages/WGCNA/index.html 200 null https://david.ncifcrf.gov/ -1 null https://david.ncifcrf.gov/ -1 null https://www.cytoscape.org/ 301 package https://cran.r-project.org/web/packages/lars/index.html 200 package https://cran.r-project.org/web/packages/caret 301 package https://cran.r-project.org/web/packages/randomForest/ 200 method https://cran.r-project.org/web/packages/e1071 301 package https://cran.r-project.org/web/packages/rmda/index.html 200 package https://cran.r-project.org/web/packages/pROC/index.html 200 download https://ctd.mdibl.org/ 301 
+Genet_Res_(Camb)	34035662	2021	NoLink
+Genet_Res_(Camb)	38715622	2024	NoLink
+Genet_Res_(Camb)	36960385	2023	null https://cibersort.stanford.edu/ 301 null https://www.ncbi.nlm.nih.gov/geo 301 
+Genet_Res_(Camb)	36741922	2023	null http://tcmspw.com/tcmsp.php -1 null https://portal.gdc.com -1 
+Genet_Res_(Camb)	35919035	2022	null https://www.ncbi.nlm.nih.gov 301 
+Genet_Res_(Camb)	35136380	2022	apply http://analysis.bio-x.cn/myAnalysis.php 503 
+Genet_Res_(Camb)	36721432	2023	NoLink
+Genet_Res_(Camb)	38205231	2024	NoLink
+Genet_Res_(Camb)	36101745	2022	null https://xenabrowser.net/ 301 null https://www.ncbi.nlm.nih.gov/ 301 null https://www.genecards.org/ 301 null https://cibersort.stanford.edu/index.php 301 
+Genet_Res_(Camb)	28132651	2017	NoLink
+Genet_Res_(Camb)	37780815	2023	NoLink
+Genet_Res_(Camb)	36160031	2022	null http://www.hgmd.cf.ac.uk/ac/index.php 302 null http://www.hgmd.cf.ac.uk/ac/index.php 302 null https://www.ncbi.nlm.nih.gov/clinvar/ 301 null http://gnomad.broadinstitute.org 301 null http://phg.nus.edu.sg/StatGen/public_html/SSMP/SSMP_index.html -1 null http://www.mutationtaster.org 302 null https://varsome.com/ 301 null https://cadd.gs.washington.edu/ 302 null https://www.uniprot.org/uniprotkb/P35575/entry#structure 301 
+Genet_Res_(Camb)	NA	2020	NoLink
+Genet_Res_(Camb)	31030682	2019	NoLink
+Genet_Res_(Camb)	36721431	2023	NoLink
+Genet_Res_(Camb)	36262248	2022	NoLink
+Genet_Res_(Camb)	35283690	2022	NoLink
+Genet_Res_(Camb)	39139739	2024	NoLink
+Genet_Res_(Camb)	32517826	2020	NoLink
+Genet_Res_(Camb)	36245556	2022	null https://seer.cancer.gov/ 301 null https://portal.gdc.cancer.gov/ 301 software https://seer.cancer.gov/seerstat/software/ 301 null https://tcga-data.nci.nih.gov/tcga/ 301 code https://www.mircode.org/ -1 null https://mirdb.org 301 null https://mirtarbase.mbc.nctu.edu.tw/ -1 null https://www.targetscan.org/vert_72/ 301 null https://string-db.org/ 301 null https://www.tumorfusions.org/ 503 
+Genet_Res_(Camb)	35440891	2022	NoLink
+Genet_Res_(Camb)	34803519	2021	method https://www.ncbi.nlm.nih.gov/geo/geo2r/ 301 tool http://bioinformatics.psb.ugent.be/webtools/Venn/ 200 method http://www.bioinformatics.com.cn/ 200 tool https://string-db.org/ 301 tool http://www.targetscan.org/vert 301 null http://www.mirdb.org/ 302 null http://mirwalk.uni-hd.de/ -1 null http://mirtarbase.cuhk.edu.cn/ 301 
+Genet_Res_(Camb)	36969985	2023	null https://portal.gdc.cancer.gov/ 301 null https://gtexportal.org 301 null https://gepia.cancer-pku.cn/ 200 
+Genet_Res_(Camb)	37575977	2023	download http://www.ncbi.nlm.nih.gov/geo/ 301 package http://www.bioconductor.org/packages/2.9/bioc/html/limma.html 301 null https://david-d.ncifcrf.gov/ -1 null http://www.string-db.org/ 301 null http://chianti.ucsd.edu/cytoscape-3.4.0/ 200 null http://apps.cytoscape.org/apps/cytonca 301 package http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html 301 software http://software.broadinstitute.org/gsea/msigdb/index.jsp 301 package http://bioconductor.org/packages/release/bioc/html/GSVA.html 301 null https://xcell.ucsf.edu/ 301 
+Genet_Res_(Camb)	35002538	2021	NoLink
+Genet_Res_(Camb)	37575978	2023	NoLink
+Genet_Res_(Camb)	32867862	2020	NoLink
+Genet_Res_(Camb)	35855056	2022	null https://www.ncbi.nlm.nih.gov/geo/geo2r/ 301 null https://metascape.org/ 200 
+Genet_Res_(Camb)	36325267	2022	NoLink
+Genet_Res_(Camb)	36688087	2023	null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://gepia.cancer-pku.cn 200 software https://www.webgestalt.org/ 302 software https://www.cytoscape.org/ 301 tool https://string-db.org/ 301 null https://gepia.cancer-pku.cn 200 null https://www.oncolnc.org/ 200 null https://ualcan.path.uab.edu/index.html 302 null https://www.proteinatlas.org/ 301 null https://cistrome.shinyapps.io/timer/ 301 
+Genet_Res_(Camb)	31813398	2019	NoLink
+Genet_Res_(Camb)	37065178	2023	null https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga 301 null https://cistrome.shinyapps.io/Timer/ 301 package https://cran.rproject.org/web/packages/wgcna/index.html 200 null https://geneontology.org/page/go-database 301 null https://www.kegg.jp/kegg/ko.html 301 
+Genet_Res_(Camb)	36186000	2022	null https://www.ncbi.nlm.nih.gov/geo/ 301 download https://portal.gdc.cancer.gov/ 301 download https://xenabrowser.net/datapages/ 301 download http://grch37.ensembl.org/index.html 200 tool http://bioinformatics.psb.ugent.be/webtools/Venn/ 200 null https://string-db.org 301 null https://gepia.cancer-pku.cn/ 200 null https://www.proteinatlas.org/ 301 method https://ualcan.path.uab.edu/analysis.html 302 null https://www.cbioportal.org/ 200 
+Genet_Res_(Camb)	34385888	2021	tool https://www.ncbi.nlm.nih.gov/variation/tools/1000genomes/ 301 
+Genet_Res_(Camb)	32772980	2020	NoLink
+Genet_Res_(Camb)	25882789	2015	NoLink
+Genet_Res_(Camb)	35069013	2022	NoLink
+Genet_Res_(Camb)	32539871	2020	NoLink
+Genet_Res_(Camb)	34949962	2021	NoLink
+Genet_Res_(Camb)	35903462	2022	null https://portal.gdc.cancer.gov 301 
+Genet_Res_(Camb)	36632438	2022	tool https://biit.cs.ut.ee/methsurv/ 301 
+Genet_Res_(Camb)	38058408	2023	NoLink
+Genet_Res_(Camb)	36072011	2022	null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://string-db.org/ 301 
+Genet_Res_(Camb)	37313428	2023	tool https://timer.cistrome.org 301 null https://tide.dfci.harvard.edu/ 200 null https://tcia.at/ 301 null https://string-db.org/ 301 
+Genet_Res_(Camb)	36817260	2023	NoLink
+Genet_Res_(Camb)	38449839	2024	NoLink
+Genet_Res_(Camb)	36636556	2022	null https://portal.gdc.com -1 
+Genet_Res_(Camb)	35620275	2022	null https://www.uniprot.org/ 301 null https://www.ncbi.nlmnih.gov/snp/ -1 null https://sift.jcvi.org 301 null https://provean.jcvi.org/seq_submit.php 200 null https://genetics.bwh.harvard.edu/pph2/ 200 tool https://www.panther.org/tools/csnpScoreForm.jsp 308 null https://folding.biofold.org/i-mutant/i-mutant2.0.html 302 null https://bioinf.cs.ucl.ac.uk/psipred/ 302 null https://pfam.xfam.org/ 200 null https://www3.cmbi.umcn.nl/hope/ 301 null https://raptorx.uchicago.edu/BindingSite/ 500 null https://www.genemania.org 301 null https://string-db.org/ 301 null https://www.musite.net/ 301 null https://gnomad.broadinstitute.org/ 301 null https://kmplot.com/analysis 301 
+Genet_Res_(Camb)	35707265	2022	download https://xenabrowser.net/ 301 download https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103091 301 download http://www.gsea-msigdb.org/gsea/msigdb 301 null https://www.r-project.org/ 200 
+Genet_Res_(Camb)	26788801	2015	NoLink
+Genet_Res_(Camb)	34456632	2021	null https://www.ncbi.nlm.nih.gov/ 301 null https://asia.ensembl.org/index.html 302 package https://bioconductor.org/packages/release/bioc/html/limma.html 301 null https://david.ncifcrf.gov/ -1 package https://cran.r-project.org/web/packages/WGCNA/index.html 200 null https://77.66.12.57/R-help/cor.test.html -1 null https://www.cytoscape.org/ 301 null https://ctd.mdibl.org/ 301 package https://CRAN.R-project.org/package=psych 303 
+Genet_Res_(Camb)	35321519	2022	NoLink
+Genet_Res_(Camb)	33854406	2021	NoLink
+Genet_Res_(Camb)	35919034	2022	null http://genetics.bwh.harvard.edu/pph2/ 200 null http://evs.gs.washington.edu/EVS/ -1 code http://www.genecodes.com 200 tool http://sourceforge.net/projects/primer3/ 301 tool http://www.geno-me.jp/tools-bin/clustalw -1 tool http://multalin.toulouse.inra.fr/multalin/ 200 null http://genetics.bwh.harvard.edu/pph2/ 200 null http://provean.jcvi.org 200 
+Genet_Res_(Camb)	35002537	2021	null https://www.ncbi.nlm.nih.gov/geo/ 301 null http://david.abcc.ncifcrf.gov/ -1 null http://www.gsea-msigdb.org/gsea/index.jsp 301 null http://string-db.org 301 
+Genet_Res_(Camb)	NA	2019	NoLink
+Genet_Res_(Camb)	36101742	2022	null https://portal.gdc.cancer.gov/ 301 code http://www.mircode.org -1 null https://www.proteinatlas.org/ 301 null http://gepia2.cancer-pku.cn 200 
+Genet_Res_(Camb)	35291755	2022	NoLink
+Genet_Res_(Camb)	35356750	2022	null https://www.ncbi.nlm.nih.gov/gds 301 
+Genet_Res_(Camb)	36381427	2022	NoLink
+Genet_Res_(Camb)	36062065	2022	NoLink
+Genet_Res_(Camb)	35645614	2022	null https://www.ncbi.nlm.nih.gov/geo/ 301 null http://www.ncbi.nlm.nih.gov/geo/ 301 package http://www.bioconductor.org/packages/release/bioc/html/affy.html 301 code https://www.gencodegenes.org/releases/current.html 301 method https://bioconductor.org/packages/release/bioc/html/limma.html 301 null http://bigd.big.ac.cn/lncbook/index 301 null https://lncipedia.org/ 301 null https://david.ncifcrf.gov/ -1 tool http://metascape.org 200 software http://apps.cytoscape.org/ 301 null http://apps.cytoscape.org/apps/cytonca 301 package http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html 301 null http://zmf.umm.uni-heidelberg.de/apps/zmf/mirwalk2/ 400 tool http://carolina.imis.athena-innovation.gr/diana_tools/web/index.php?r=lncbasev2%2Findex 403 
+Genet_Res_(Camb)	34690553	2021	null https://portals.broadinstitute.org/cmap/ 301 null https://pubchem.ncbi.nlm.nih.gov/ 301 
+Genet_Res_(Camb)	36101744	2022	NoLink
+Genet_Res_(Camb)	30744722	2019	NoLink
+Genet_Res_(Camb)	34949963	2021	NoLink
+Genet_Res_(Camb)	32234109	2020	NoLink
+Genet_Res_(Camb)	35136382	2022	NoLink
+Genet_Res_(Camb)	33762894	2021	NoLink
+Genet_Res_(Camb)	37497166	2023	NoLink
+Genet_Res_(Camb)	36101746	2022	null https://www.mirbase.org/ 301 
+Genet_Res_(Camb)	36407085	2022	download https://www.ncbi.nlm.nih.gov/geo/ 301 null https://xenabrowser.net/datapages/ 301 
+Genet_Res_(Camb)	35136381	2022	NoLink
+Genet_Res_(Camb)	37153858	2023	null https://www.ncbi.nlm.nih.gov/ 301 software https://mirwalk.umm.uni-heidelberg.de/ 200 
+Genet_Res_(Camb)	33854407	2021	null https://www.graphpad.com/quickcalcs/contingency1/ 301 null https://www.medcalc.org/calc/odds_ratio.php 301 
+Genet_Res_(Camb)	36325266	2022	NoLink
+Genet_Res_(Camb)	36530957	2022	available https://portal.gdc.cancer.gov/ 301 null https://www.ncbi.nlm.nih.gov/geo/ 301 null https://www.gsea-msigdb.org/gsea/index.jsp 301 null https://tide.dfci.harvard.edu/ 200 
+Genet_Res_(Camb)	31668154	2019	NoLink
+Genet_Res_(Camb)	37033160	2023	null https://www.NCBI.nlm.gov/GEO -1 null https://string-db.org/ 301 software https://www.cytoscape.org/ 301 
+Genet_Res_(Camb)	31878985	2019	NoLink
+Genet_Res_(Camb)	36636555	2022	NoLink
+Genet_Res_(Camb)	31831092	2019	NoLink
+Genet_Res_(Camb)	36299683	2022	NoLink
+Genet_Res_(Camb)	31822308	2019	NoLink
+Genet_Res_(Camb)	38348366	2024	NoLink
+Genet_Res_(Camb)	36518097	2022	NoLink
+Genet_Res_(Camb)	35356751	2022	NoLink
+Genet_Res_(Camb)	35069014	2022	NoLink
+Genet_Res_(Camb)	36118276	2022	NoLink
+Genet_Res_(Camb)	35645613	2022	software https://www.broad.mit.edu/mpg/haploview 301 
+Genet_Res_(Camb)	22353245	2012	NoLink
+Genet_Res_(Camb)	34949964	2021	null https://www.pharmvar.org 301 software https://www.generunner.com 302 
+Genet_Res_(Camb)	38205232	2024	null https://www.immport.org/home 301 null https://www.innatedb.ca/ 301 
+Genet_Res_(Camb)	36101743	2022	download https://www.ncbi.nlm.nih.gov/geo/ 301 null https://ocg.cancer.gov/programs/target 301 software https://www.r-project.org/ 200 null http://string-db.org/ 301 null https://www.Oncomine.org 301 code http://www.mircode.org/ -1 null http://starbase -1 
+Genet_Res_(Camb)	38186679	2023	NoLink
+Genet_Res_(Camb)	35919038	2022	software https://www.activestate.com/products/perl/ 301 null https://string-db.org 301 
+Genet_Res_(Camb)	35528220	2022	NoLink
+Genet_Res_(Camb)	38292516	2024	NoLink
+Genet_Res_(Camb)	37006462	2023	NoLink
+Genet_Res_(Camb)	35440893	2022	NoLink
+Genet_Res_(Camb)	34104118	2021	NoLink
+Genet_Res_(Camb)	34456633	2021	null https://pubmed.ncbi.nlm.nih.gov 301 null http://www.webofscience.com 301 null https://tcmspw.com/tcmsp.php -1 null https://pubchem.ncbi.nlm.nih.gov 301 null http://www.swisstargetprediction.ch 301 null https://www.genecards.org 301 null https://metascape.org 200 null http://www1.rcsb.org/ 302 
+Genet_Res_(Camb)	30728085	2019	NoLink
+Genet_Res_(Camb)	35645615	2022	null https://portal.gdc.cancer.gov/ 301 null https://www.autophagy.lu/index.html 302 null https://www.broadinstitute.org/gsea/index.jsp 301 null https://www.autophagy.lu/ 302 
+Genet_Res_(Camb)	30829192	2019	NoLink
+Genet_Res_(Camb)	35975176	2022	null https://portal.gdc.cancer.gov/ 301 
