@@ -1,6 +1,5 @@
 library(tidyverse)
 
-# Trying to recreate the plots
 links_raw <- read.csv("data/links.bulk.csv", quote = "")
 
 links_raw %>% head
@@ -20,7 +19,6 @@ colors2 <- c('bg_unreach' = rgb(1.0,0.8,0.6),
   'fg_accessb' = rgb(0.0,0.0,0.8)
 )
 
-
 # Parse status code into human-readable status
 # -1 : time out         => -1
 # 0..299 : good         => 1
@@ -34,6 +32,7 @@ links <- links_raw %>% filter(year >= initial_year) %>%
                             status >= 0 & status < 3 ~ 1,
                            TRUE ~ status)) %>% 
   mutate(status = factor(status, levels = c(-1, 1, 3, 4)))
+
 links %>% nrow
 table(links$status) %>% prop.table
 
@@ -56,7 +55,6 @@ unique_links <- unique_links %>%
   select(-https_redirect) %>% 
   mutate(status = factor(status, levels = rev(c(4, -1, 3, 1))))
 table(unique_links$status) %>% prop.table
-
 
 unique_links %>% count(broken = status %in% c(-1, 4)) %>% 
   mutate(frac = n/sum(n))
@@ -96,8 +94,6 @@ links_per_year_group <- links_per_year %>%
 links_per_year_group %>% 
   mutate(frac = n/sum(n)) %>% filter(broken == FALSE) %>% 
   print(n=Inf)
-
-
 
 # Fig 1b - line plot
 fig_1b <- ggplot(links_per_year_group %>%
@@ -176,23 +172,8 @@ unique_links_source %>%
   group_by(link_source)
   mutate(frac = n/sum(n)*100)
 
-  
-  
-# Fig 1f
-fig_1f <- ggplot(unique_links_source, aes(x=link_source, y=n, fill=status)) +
-  geom_bar(stat="identity", position="fill", width=0.7) +
-  scale_fill_manual(values = colors, labels = status_names, name = "Status") +
-  scale_y_continuous(expand = expansion(mult = c(0,0), add = c(0, 0.05)),
-                     labels = scales::label_percent(suffix="")) +
-  labs(y = "Percent of links") +
-  theme_classic(base_size = 7) +
-  theme(legend.position = "none",
-        axis.title.x = element_blank(),
-        axis.ticks.x = element_blank())
-fig_1f
-
-# Fig 1g
-fig_1g <- unique_links %>% group_by(year, link_source) %>% 
+# Fig 1d
+fig_1d <- unique_links %>% group_by(year, link_source) %>% 
   summarise(n=n()) %>%
   group_by(year) %>% 
   mutate(frac = n/sum(n)*100) %>% 
@@ -223,7 +204,20 @@ fig_1g <- unique_links %>% group_by(year, link_source) %>%
         legend.position = c(0.3, 0.925),
         legend.background = element_rect(color="black"),
         legend.margin = margin(t=2, r=2, b=2, l=2))
-fig_1g
+fig_1d
+
+# Fig 1e
+fig_1e <- ggplot(unique_links_source, aes(x=link_source, y=n, fill=status)) +
+  geom_bar(stat="identity", position="fill", width=0.7) +
+  scale_fill_manual(values = colors, labels = status_names, name = "Status") +
+  scale_y_continuous(expand = expansion(mult = c(0,0), add = c(0, 0.05)),
+                     labels = scales::label_percent(suffix="")) +
+  labs(y = "Percent of links") +
+  theme_classic(base_size = 7) +
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.ticks.x = element_blank())
+fig_1e
 
 # Fig 1h
 # fig_1h <- unique_links_source %>%
@@ -241,17 +235,16 @@ fig_1g
 #         axis.ticks.y = element_blank())
 # fig_1h
 
-
-journals_oi <- journals_oi <- c("BMC Genomics", "Genet Res (Camb)", "Genome Med", "Nat Methods",
-                                "PLoS Comput Biol", "BMC Bioinformatics", "BMC Syst Biol",
-                                "Genome Biol", "Nat Biotechnol", "Nucleic Acids Res") %>%
+journals_oi <- c("BMC Genomics", "Genet Res (Camb)", "Genome Med", "Nat Methods",
+                 "PLoS Comput Biol", "BMC Bioinformatics", "BMC Syst Biol",
+                 "Genome Biol", "Nat Biotechnol", "Nucleic Acids Res") %>%
   setNames(gsub(" ", "_", .))
 
 # Number of entries per journal
 journal_order <- unique_links %>% count(journal) %>% arrange(n) %>% pull(journal)
 journal_summ <- unique_links %>% count(journal, status) %>% 
   mutate(journal = factor(journal, levels = journal_order))
-# journal_names <- str_extract(list.files("data/abstractLinks"), "abstractLinks_(\\S+)\\.prepared.tsv", group=1)
+
 journal_links <- lapply(names(journals_oi), function(journal_name){
   abstract <- read.csv(paste0("data/abstractLinks/abstractLinks_", journal_name, ".prepared.tsv"), header=FALSE, sep="\t",
            col.names = c("journal", "pmid", "year", "link")) %>% filter(grepl("\\.|/", link)) %>% 
@@ -300,15 +293,11 @@ fig_1c <- ggplot(journal_npapers_stat %>% filter(year >= 2005),
         legend.key.size = unit(0.3, "cm"))
 fig_1c
   
-# journal_counts <- read.csv(paste0("data/counts.csv"), col.names = c("journal", "npapers"))
-# journal_counts %>% inner_join(journal_links %>% count(journal), by="journal") %>% 
-#   mutate(frac = n/npapers)
-sum(journal_counts$npapers)
 
 # Join all plots
 library(patchwork)
 first_row <- fig_1a + plot_spacer() + fig_1b + plot_layout(widths=c(0.6, -0.03, 1))
-second_row <- fig_1c + fig_1f + fig_1g
+second_row <- fig_1c + fig_1d + fig_1e
 all_plots <- free(first_row) / second_row +
   plot_annotation(tag_levels = 'a', tag_prefix = "(", tag_suffix = ")") &
   theme(plot.tag = element_text(face="bold"))
@@ -319,34 +308,15 @@ ggsave("plots/fig1.pdf", all_plots,
        height = 100,
        units = "mm")
 
-
-
-
-unique_links %>% count(year)
-unique_links %>% group_by(id, year) %>% 
-  summarise(nlinks= n()) %>% 
-  group_by(year) %>% 
-  summarise(mean_links = mean(nlinks),
-            sd_links = sd(nlinks),
-            median_links = median(nlinks))
-  
-
+# Status by journal
 ggplot(journal_summ, aes(y=journal, x=n, color=status)) +
   geom_point(stat = "identity") +
   scale_x_log10() +
   theme_classic()
+
 journal_summ %>% group_by(journal, broken = status %in% c(-1, 4)) %>% 
   summarise(n = sum(n)) %>% 
   mutate(frac = n/sum(n)) %>% 
   filter(broken == FALSE) %>% 
   arrange(frac) %>% 
   print(n=Inf)
-
-journal_summ_usable <- unique_links %>% filter(status %in% c(1, 3)) %>% 
-  group_by(journal) %>% 
-  summarise(nlinks = n()) %>% 
-  mutate(journal = factor(journal, levels = journal[order(nlinks)]))
-ggplot(journal_summ_usable, aes(y=journal, x=nlinks)) +
-  geom_bar(stat = "identity", position="fil") +
-  theme_classic()
-journal_summ_usable %>% arrange(nlinks)
